@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: blanchedalmond;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+}
+.login-container {
+    display: flex;
+    justify-content: center;
+    width: 840px;
+    height: 598px; ;
+}
+.left {
+    width: 420px;
+    height: 80vh;
+    background: url(/Images/bert-b-rhNff6hB41s-unsplash\ 1.png) center center/cover no-repeat;
+    
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    padding: 100px 100px 0 40px ;
+}
+.left h1 {
+    margin-bottom: 25px;
+}
+.right {
+    width: 420px;
+    height: 80vh;
+    background-color: white;
+    padding: 20px 40px 80px;
+    display: flex;
+    flex-direction: column;
+}
+.frame {
+    text-align: right;
+    font-size: 14px;
+    color: grey;
+}
+.frame a {
+    color: grey;
+}
+.log {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+}
+.log h3 {
+    margin-bottom: 30px;
+}
+.outlink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: small;
+}
+.outlink a {
+    text-decoration: none;
+    color: gray;
+    display: flex;
+    align-items: center;
+}
+.outlink img {
+    margin-right: 10px;
+}
+.or {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+.or hr {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.or h5 {
+    color: grey;
+    margin: 0 10px;
+}
+.loginform legend {
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    color: gray;
+    margin-top: 20px;
+}
+legend input {
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 5px 0;
+}
+legend a {
+    text-align: right;
+    color: rgb(70, 70, 70);
+}
+legend .btn {
+    width: 50%;
+    background-color: rgb(161, 119, 12);
+    color: white;
+    cursor: pointer;
+}
+.frame1{
+    text-align: left;
+}
+
